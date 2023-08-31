@@ -117,3 +117,6 @@ github
     git push -u origin main
     이후에는
     git push 만으로 업로드 가능
+
+원격저장소의 브랜치를 로컬로 다운로드 받기
+  git pull origin 브랜치이름
