@@ -114,3 +114,6 @@ github
     최초 1회 설정하면
     그 이후는 알아서 연결된 원격저장소에 
     업로드, 다운로드 가 된다.
+    git push -u origin main
+    이후에는
+    git push 만으로 업로드 가능
