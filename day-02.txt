@@ -34,3 +34,9 @@ day-02.txt 수정사항을 stage에 올림
   git restore 파일이름
     unstaged 상태에서 쓰면 마지막으로 저장한 지점으로 돌아간다.
   
+
+
+무조건 처음 새롭게 만들어진 파일은 untracked
+한번이라도 stage에 올라갔고, commit이 되었다면 tracked
+
+commit을 할때는 staged 된 파일만 커밋됨
