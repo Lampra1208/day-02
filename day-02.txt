@@ -15,3 +15,22 @@ git add day-02.txt
 day-02.txt 를 수정
   day-02.txt 가 modified 상태가 되었다. 
   (tracked 상태, unstaged 상태)
+
+day-02.txt 수정사항을 stage에 올림
+  git add day-02.txt
+
+영구저장
+  stage에 올라가 있는 임시저장된 파일들만 영구저장이 된다.
+  git commit
+  i 를 누르면 저장파일에 메세지를 남길 수 있다.
+  메세지를 남기고 난 후 esc 버튼을 누르고, :wq 를 누르면 저장이 된다.
+
+  git status
+   현재 파일의 상태를 알수있다.
+
+  git restore --staged 파일이름
+    stage 에 올라간 파일을 stage에서 내릴수 있다.
+    
+  git restore 파일이름
+    unstaged 상태에서 쓰면 마지막으로 저장한 지점으로 돌아간다.
+  
