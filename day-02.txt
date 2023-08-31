@@ -116,4 +116,7 @@ github
     업로드, 다운로드 가 된다.
     git push -u origin main
     이후에는
-    git push 만으로 업로드 가능
+    git push 만으로 업로드 가
+
+
+github 에서 수정한 내용  
